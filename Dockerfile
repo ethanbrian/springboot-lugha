@@ -11,4 +11,4 @@ COPY . /app
 EXPOSE 8080
 
 # Run application when the container launches
-CMD ["java", "-jar", "demo-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "springboot-lugha/target/demo-0.0.1-SNAPSHOT.jar"]
